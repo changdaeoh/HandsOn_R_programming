@@ -25,4 +25,8 @@
 * library(gridExtra)
 * grid.arrange(p1, p2, ncol = 2)
 
+# map
+* ggChoropleth(data = value_set, aes(fill = feature, 
+                                     map_id = region_category, ...), 
+               map = geom_set, interactive = T)
 ```
