@@ -8,8 +8,10 @@
 * group_by( , )
 * left_join(df1, df2, id = )
 
+# shaping
+* 
 
-# visual
+# visual - (ggplot)
 * ggplot(data, aes(x = reorder(var_main, var_order), y, fill = ))
 * geom_bar( ) # count(default)
 * geom_col( position = "dodge" ) 
@@ -24,6 +26,10 @@
 
 * library(gridExtra)
 * grid.arrange(p1, p2, ncol = 2)
+# --------------------------------------
+
+# crawling
+
 
 # map
 * ggChoropleth(data = value_set, aes(fill = feature, 
